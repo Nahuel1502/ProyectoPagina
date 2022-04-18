@@ -1,0 +1,314 @@
+body {
+    background-color: black;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.logo {
+    background-image: url(img/logo/fondo.jpg)
+}
+
+.logo h1 {
+    position: relative;
+    bottom: 120px;
+    left: 350px;
+
+    font-size: 2.5em;
+    font-weight: 700;
+    font-style: oblique;
+
+    text-decoration: underline;
+
+    display: inline-block;
+    padding: 0.1em;
+
+    color: rgb(18, 109, 0);
+
+    border-radius: 5em;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 19.3%;
+}
+
+nav ul li a {
+    padding: 0.2em 0.4em;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: rgb(118, 235, 128);
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 0, 0.233);
+    transition: 0.4s;
+}
+
+footer {
+    background-color: gray;
+    clear: both;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+nav ul li a.active {
+    background-color: rgba(255, 255, 0, 0.233);
+}
+
+
+
+
+
+.remeras {
+    overflow: hidden;
+}
+
+.remeras h2 {
+    color: rgb(248, 252, 10);
+    text-decoration: underline;
+    margin-left: 0.8em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.remera {
+    background-color: rgb(204, 205, 206);
+    width: 18%;
+    border: 1px gray solid;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.remera img {
+    max-width: 9em;
+    max-height: 9em;
+    border-radius: 0.3em;
+    margin: 0.8em 0 1em;
+}
+
+.remera h5,
+.remera h6 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.remera h5 {
+    font-style: italic;
+    font-size: 0.9em;
+    padding: 0%;
+    margin-top: 0.1em;
+}
+
+.remera h6 {
+    font-size: 0.8em;
+    margin: 0%;
+}
+
+.remera ul {
+    margin: 0%;
+}
+
+.remera ul li {
+    margin: 0%;
+    padding: 0%;
+    text-align: start;
+}
+
+
+
+.gorras h2 {
+    color: rgb(251, 255, 0);
+    text-decoration: underline;
+    margin-left: 0.8em;
+    text-transform: uppercase;
+}
+
+
+.gorra {
+    background-color: rgb(204, 205, 206);
+    width: 18%;
+    border: 1px gray solid;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.gorra img {
+    max-width: 9em;
+    max-height: 9em;
+    border-radius: 0.3em;
+    margin: 0.8em 0 1em;
+}
+
+.gorra h5,
+.gorra h6 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.gorra h5 {
+    font-style: italic;
+    font-size: 0.9em;
+    padding: 0%;
+    margin-top: 0.1em;
+}
+
+.gorra h6 {
+    font-size: 0.8em;
+    margin: 0%;
+}
+
+
+
+.pantalones {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.pantalones h2 {
+    color: rgb(238, 255, 1);
+    text-decoration: underline;
+    margin-left: 0em;
+    text-transform: uppercase;
+}
+
+.pantalon {
+    background-color: rgb(204, 205, 206);
+    width: 18%;
+    border: 1px gray solid;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.pantalon img {
+    max-width: 9em;
+    max-height: 9em;
+    border-radius: 0.3em;
+    margin: 0.8em 0 1em;
+}
+
+.pantalon h5,
+.pantalon h6 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.pantalon h5 {
+    font-style: italic;
+    font-size: 0.9em;
+    padding: 0%;
+    margin-top: 0.1em;
+}
+
+.pantalon h6 {
+    font-size: 0.8em;
+    margin: 0%;
+}
+
+.pantalon ul {
+    margin: 0%;
+}
+
+.pantalon ul li {
+    margin: 0%;
+    padding: 0%;
+    text-align: start;
+}
+
+
+/* Fin del Inicio*/
+/*Inicio de página "Sobre Nosotros"*/
+
+
+main {
+    background-image: url(img/rostro/mural.jpg);
+    width: 60em;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+main h2{
+    color: yellow;
+    text-align: center;
+    border-bottom: 3px solid rgb(238, 255, 0);
+}
+.nosotros{
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.nosotros .persona{
+    width: 75%;
+}
+.nosotros .persona h4 {
+    color: #07ff1c;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid rgb(238, 255, 0);
+    padding-bottom: 0.5em;
+}
+
+.nosotros .persona p{
+    color: aqua;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+.nosotros img{
+    border-radius: 0.8em;
+    width: 200px;
+    height: 150px;
+}
+
+.nosotros:nth-child(even) img{
+    float: right;
+ margin: 0 0 0 1em;
+}
+.nosotros:nth-child(even) .persona{
+    float: left;
+    
+    background-color: rgb(56, 55, 55);
+    border-radius: 13px;
+    padding: 3px;
+}
+.nosotros:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+.nosotros:nth-child(odd) .persona{
+    float: right;
+    background-color: rgb(56, 55, 55);
+    border-radius: 13px;
+    padding: 3px;
+}
+
+.contacto{
+    text-align: center;
+    height: 7em;
+    width: 60em;
+}
