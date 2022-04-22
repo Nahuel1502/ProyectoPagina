@@ -71,7 +71,7 @@ nav ul li a.active {
 }
 
 
-
+/**/
 
 
 .remeras {
@@ -252,6 +252,7 @@ main {
 }
 main h2{
     color: yellow;
+    background-color: black;
     text-align: center;
     border-bottom: 3px solid rgb(238, 255, 0);
 }
