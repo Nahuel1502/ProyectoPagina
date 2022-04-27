@@ -4,9 +4,10 @@ body {
 
 main {
     background-color: antiquewhite;
-    width: 80%;
+    width: 960px;
     margin: auto;
     border: 1px solid gray;
+    overflow: hidden;
 }
 
 .logo img {
@@ -20,8 +21,8 @@ main {
 
 .logo h1 {
     position: relative;
-    bottom: 180px;
-    left: 500px;
+    bottom: 120px;
+    left: 350px;
 
     font-size: 2.5em;
     font-weight: 700;
@@ -29,6 +30,7 @@ main {
 
     text-decoration: underline;
 
+    display: inline-block;
     padding: 0.1em;
 
     color: rgb(18, 109, 0);
@@ -82,10 +84,12 @@ nav ul li a.active {
 .columna{
     width: 50%;
     padding: 1em;
+    box-sizing: border-box;
 }
 
 .columna.left{
     border-right: 1px solid gray;
+    float: left;
 }
 .columna.left h2{
     border-bottom: 1px solid gray;
@@ -94,7 +98,8 @@ nav ul li a.active {
 
 .columna.right{
     font-size: 0.9em;
-    text-align:center
+    text-align:center;
+    float: right;
 }
 .columna.right a:nth-child(odd){
     color: #8d0612;
